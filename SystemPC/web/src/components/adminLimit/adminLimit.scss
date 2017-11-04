@@ -1,0 +1,35 @@
+.orderHead{
+    .el-button--info.is-plain {margin-left:20px;height:36px;padding:0 16px;}
+}
+.memberLeft{
+    width:80px;
+    height:100%;
+    float:left;
+    background:#ddd;
+    .el-button.el-button{margin-bottom:10px;margin-left:0px;}
+    button{width:80px;margin:0;}
+
+}
+.adminData{
+    overflow-y:auto;
+    height:420px;
+    table{
+        border:2px solid #ccc;
+        width:100%;
+        tr{
+            th{text-align:center;}
+        }
+        td{text-align:center;padding:6px 0px;}
+    }
+}
+.limitChange,.limitChange2{border:1px solid #ccc;width:400px;margin:30px 0 0 100px;padding:20px;.limitName{width:296px;}button{margin-left:100px;}}
+.adminData{
+    .adminTr{
+        td{
+            .el-button--danger{
+                height:30px;
+                padding:0 10px;
+            }
+        }
+    }
+} 

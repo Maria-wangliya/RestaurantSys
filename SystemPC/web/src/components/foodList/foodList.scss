@@ -1,0 +1,78 @@
+.main.foodList{
+    .head{
+        height:70px;
+        background:#EAEEF1;
+        box-sizing:border-box;
+        padding:10px;
+        .headRight{width:300px;height: 60px;float:right;padding:10px;}
+        button{width:60px;margin-right:6px;}
+        .headLeft{height:60px;float:left;position:relative;i{font-size:20px;position:absolute;top:12px;left:8px;}
+        button{width: 120px;text-align:right;}}
+    }
+    .food{
+        width:100%;height:100%;
+        background:#fff;
+        .foodLeft{
+            background:#F5F5F5;height:100%;width: 100px;float:left;
+            ul{
+                padding-top:10px;
+                li{
+                    text-align:center;line-height:42px;font-size:14px;color:#333;border-top:1px solid #DADADA;
+                    &:hover{background:#fff;border-top:1px solid #0FC731;cursor:pointer;color:#0FC731;}
+                }
+
+            }
+        }
+        .foodRight{
+            height:100%;border-top:3px solid #F8EFDE;overflow:hidden;
+            div{
+                overflow-x:hidden;
+                table{
+                    tr{
+                        th{
+                            text-align:center;
+                        }
+                        td{
+                            text-align:center;
+                            padding:8px 0;
+                        }
+                    }
+
+                }
+                &.search{padding:20px;.el-input{width:150px;float:left;margin-right:10px;}button{float:left;width: 90px;}.el-select{float: left;}}
+            }
+        }
+    }
+    .el-dialog{
+        width: 35%;
+    }
+}
+.upload-demo{
+    padding-left: 75px;
+    ul{
+        width: 320px;
+    }
+}
+.el-dialog__body{
+    .el-form-item{margin-bottom:10px;}
+}
+.el-input.el-input--suffix,.el-input{
+    .el-input__inner{height:34px;}
+}
+
+.el-upload.el-upload--text{
+    .el-upload-dragger{width:250px;height:162px;}
+}
+.el-dialog__wrapper{
+    .el-dialog__body{padding:0;}
+
+}
+.bianji{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);background-color:rgba(0,0,0,.3);width: 100%;height: 100%;display: none;z-index: 100;
+        .contan{margin: 100px auto;width: 500px;background-color: #fff;padding-bottom:30px ;
+        h4{padding: 20px;}
+           .dialog-footer{overflow: hidden;
+                button{float: right;margin-right: 20px;}
+        }
+    }
+}
+     

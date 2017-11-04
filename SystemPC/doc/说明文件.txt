@@ -1,0 +1,30 @@
+
+github远程地址：git@github.com:ETTTTT/market.git
+
+组员主要分工：
+
+王丽雅（组长）：vue+element-ui搭建基础框架、页面效果、设计移动端数据库
+
+王亮： 后台路由、配置以及后端操作
+
+任思明： 移动端界面
+
+
+操作注意（PC端）：
+
+1.监听端口号：88
+
+2.mysql数据库：
+
+	mysqlPC数据库:包含表
+		(login/menu/orderlist/orderlistdown/orderlistundown/memberlist/adminlist/adminlimit)
+
+3.打开页面前需要做到：
+
+	（1）修改component组建中orderlist.vue文件第178行ws的ip(自己的) [ ws = new WebSocket("ws://10.3.131.9:666"); ]
+	（2）需要打开3个服务器：与web文件同级下打开node socket、web文件下与src同级打开 npm run dev、api文件下与server.js同级打开 node server
+4.登录：
+
+	直接用帐号登录：以普通员工身份登录，部分操作权限受到限制。以管理员身份登录，拥有全部操作权限。
+	例管理员账号：wly 密码：123、 员工账号：www 密码：123
+

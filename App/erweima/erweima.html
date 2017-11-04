@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.ercode{
+				width: 200px;
+				margin: 200px auto;
+			}
+			h4{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ercode">
+			<h4>手机扫一扫进入</h4>
+		</div>
+		<script src="jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery-qrcode-master/jquery.qrcode.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			 $('.ercode').qrcode({
+             render:'canvas',
+             width:200,
+             height:200,
+             text:  "http://10.3.131.22:8081/#/VHome/"
+           })
+		</script>
+	</body>
+</html>
